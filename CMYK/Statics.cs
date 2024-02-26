@@ -1,7 +1,7 @@
 ﻿using System.Drawing.Drawing2D;
 using System.Drawing.Imaging;
 
-namespace GK3
+namespace CMYK
 {
     public static class Statics
     {

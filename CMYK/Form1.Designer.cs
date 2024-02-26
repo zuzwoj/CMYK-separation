@@ -1,4 +1,4 @@
-﻿namespace GK3
+﻿namespace CMYK
 {
     partial class Form1
     {

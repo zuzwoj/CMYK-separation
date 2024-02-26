@@ -1,7 +1,7 @@
 ﻿using System.Drawing.Imaging;
 using System.Runtime.InteropServices;
 
-namespace GK3
+namespace CMYK
 {
     public class DirectBitmap : IDisposable
     {
