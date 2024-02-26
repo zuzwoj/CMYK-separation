@@ -123,10 +123,10 @@
             groupBox1.Controls.Add(radioButtonC);
             groupBox1.Location = new Point(1080, 12);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(145, 206);
+            groupBox1.Size = new Size(167, 206);
             groupBox1.TabIndex = 6;
             groupBox1.TabStop = false;
-            groupBox1.Text = "Krzywe";
+            groupBox1.Text = "Gray ramp";
             // 
             // checkBoxShowAll
             // 
@@ -135,9 +135,9 @@
             checkBoxShowAll.CheckState = CheckState.Checked;
             checkBoxShowAll.Location = new Point(6, 180);
             checkBoxShowAll.Name = "checkBoxShowAll";
-            checkBoxShowAll.Size = new Size(138, 19);
+            checkBoxShowAll.Size = new Size(82, 19);
             checkBoxShowAll.TabIndex = 12;
-            checkBoxShowAll.Text = " Pokaż wszystkie";
+            checkBoxShowAll.Text = "Show all";
             checkBoxShowAll.UseVisualStyleBackColor = true;
             checkBoxShowAll.CheckedChanged += checkBoxShowAll_CheckedChanged;
             // 
@@ -145,9 +145,9 @@
             // 
             buttonCurveSave.Location = new Point(6, 151);
             buttonCurveSave.Name = "buttonCurveSave";
-            buttonCurveSave.Size = new Size(91, 23);
+            buttonCurveSave.Size = new Size(155, 23);
             buttonCurveSave.TabIndex = 11;
-            buttonCurveSave.Text = "Zapisz";
+            buttonCurveSave.Text = "Save";
             buttonCurveSave.UseVisualStyleBackColor = true;
             buttonCurveSave.Click += buttonCurveSave_Click;
             // 
@@ -155,9 +155,9 @@
             // 
             buttonCurveLoad.Location = new Point(6, 122);
             buttonCurveLoad.Name = "buttonCurveLoad";
-            buttonCurveLoad.Size = new Size(91, 23);
+            buttonCurveLoad.Size = new Size(155, 23);
             buttonCurveLoad.TabIndex = 10;
-            buttonCurveLoad.Text = "Załaduj...";
+            buttonCurveLoad.Text = "Load...";
             buttonCurveLoad.UseVisualStyleBackColor = true;
             buttonCurveLoad.Click += buttonCurveLoad_Click;
             // 
@@ -169,7 +169,7 @@
             radioButtonK.Size = new Size(60, 19);
             radioButtonK.TabIndex = 3;
             radioButtonK.TabStop = true;
-            radioButtonK.Text = "Czerń";
+            radioButtonK.Text = "Black";
             radioButtonK.UseVisualStyleBackColor = true;
             radioButtonK.CheckedChanged += radioButtonK_CheckedChanged;
             // 
@@ -178,10 +178,10 @@
             radioButtonY.AutoSize = true;
             radioButtonY.Location = new Point(6, 72);
             radioButtonY.Name = "radioButtonY";
-            radioButtonY.Size = new Size(60, 19);
+            radioButtonY.Size = new Size(67, 19);
             radioButtonY.TabIndex = 2;
             radioButtonY.TabStop = true;
-            radioButtonY.Text = "Żółty";
+            radioButtonY.Text = "Yellow";
             radioButtonY.UseVisualStyleBackColor = true;
             radioButtonY.CheckedChanged += radioButtonY_CheckedChanged;
             // 
@@ -193,7 +193,7 @@
             radioButtonM.Size = new Size(74, 19);
             radioButtonM.TabIndex = 1;
             radioButtonM.TabStop = true;
-            radioButtonM.Text = "Purpura";
+            radioButtonM.Text = "Magenta";
             radioButtonM.UseVisualStyleBackColor = true;
             radioButtonM.CheckedChanged += radioButtonM_CheckedChanged;
             // 
@@ -202,10 +202,10 @@
             radioButtonC.AutoSize = true;
             radioButtonC.Location = new Point(6, 22);
             radioButtonC.Name = "radioButtonC";
-            radioButtonC.Size = new Size(60, 19);
+            radioButtonC.Size = new Size(53, 19);
             radioButtonC.TabIndex = 0;
             radioButtonC.TabStop = true;
-            radioButtonC.Text = "Cyjan";
+            radioButtonC.Text = "Cyan";
             radioButtonC.UseVisualStyleBackColor = true;
             radioButtonC.CheckedChanged += radioButtonC_CheckedChanged;
             // 
@@ -213,9 +213,9 @@
             // 
             buttonPictureSelect.Location = new Point(6, 22);
             buttonPictureSelect.Name = "buttonPictureSelect";
-            buttonPictureSelect.Size = new Size(91, 23);
+            buttonPictureSelect.Size = new Size(155, 23);
             buttonPictureSelect.TabIndex = 7;
-            buttonPictureSelect.Text = "Wybierz...";
+            buttonPictureSelect.Text = "Select...";
             buttonPictureSelect.UseVisualStyleBackColor = true;
             buttonPictureSelect.Click += buttonPictureSelect_Click;
             // 
@@ -223,9 +223,9 @@
             // 
             buttonSavePictures.Location = new Point(6, 51);
             buttonSavePictures.Name = "buttonSavePictures";
-            buttonSavePictures.Size = new Size(91, 23);
+            buttonSavePictures.Size = new Size(155, 23);
             buttonSavePictures.TabIndex = 8;
-            buttonSavePictures.Text = "Zapisz";
+            buttonSavePictures.Text = "Save";
             buttonSavePictures.UseVisualStyleBackColor = true;
             buttonSavePictures.Click += buttonSavePictures_Click;
             // 
@@ -236,19 +236,19 @@
             groupBox2.Controls.Add(buttonSavePictures);
             groupBox2.Location = new Point(1080, 224);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(145, 107);
+            groupBox2.Size = new Size(167, 107);
             groupBox2.TabIndex = 9;
             groupBox2.TabStop = false;
-            groupBox2.Text = "Obraz";
+            groupBox2.Text = "Image";
             // 
             // checkBoxCiB
             // 
             checkBoxCiB.AutoSize = true;
             checkBoxCiB.Location = new Point(6, 80);
             checkBoxCiB.Name = "checkBoxCiB";
-            checkBoxCiB.Size = new Size(110, 19);
+            checkBoxCiB.Size = new Size(89, 19);
             checkBoxCiB.TabIndex = 9;
-            checkBoxCiB.Text = "czarno-biały";
+            checkBoxCiB.Text = "grayscale";
             checkBoxCiB.UseVisualStyleBackColor = true;
             checkBoxCiB.CheckedChanged += checkBoxCiB_CheckedChanged;
             // 
@@ -260,16 +260,16 @@
             groupBox3.Controls.Add(buttonC0);
             groupBox3.Location = new Point(1080, 337);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(145, 142);
+            groupBox3.Size = new Size(167, 142);
             groupBox3.TabIndex = 10;
             groupBox3.TabStop = false;
-            groupBox3.Text = "Separacja";
+            groupBox3.Text = "Separation";
             // 
             // buttonGCR
             // 
             buttonGCR.Location = new Point(6, 111);
             buttonGCR.Name = "buttonGCR";
-            buttonGCR.Size = new Size(122, 23);
+            buttonGCR.Size = new Size(155, 23);
             buttonGCR.TabIndex = 11;
             buttonGCR.Text = "GCR";
             buttonGCR.UseVisualStyleBackColor = true;
@@ -279,7 +279,7 @@
             // 
             buttonUCR.Location = new Point(6, 82);
             buttonUCR.Name = "buttonUCR";
-            buttonUCR.Size = new Size(122, 23);
+            buttonUCR.Size = new Size(155, 23);
             buttonUCR.TabIndex = 2;
             buttonUCR.Text = "UCR";
             buttonUCR.UseVisualStyleBackColor = true;
@@ -289,9 +289,9 @@
             // 
             button1.Location = new Point(6, 53);
             button1.Name = "button1";
-            button1.Size = new Size(122, 23);
+            button1.Size = new Size(155, 23);
             button1.TabIndex = 1;
-            button1.Text = "Cofnięcie 100%";
+            button1.Text = "Black ink limit 100%";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
@@ -299,9 +299,9 @@
             // 
             buttonC0.Location = new Point(6, 24);
             buttonC0.Name = "buttonC0";
-            buttonC0.Size = new Size(122, 23);
+            buttonC0.Size = new Size(155, 23);
             buttonC0.TabIndex = 0;
-            buttonC0.Text = "Cofnięcie 0%";
+            buttonC0.Text = "Black ink limit 0%";
             buttonC0.UseVisualStyleBackColor = true;
             buttonC0.Click += buttonC0_Click;
             // 
@@ -309,7 +309,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1231, 729);
+            ClientSize = new Size(1255, 729);
             Controls.Add(groupBox3);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
@@ -320,7 +320,7 @@
             Controls.Add(originalBox);
             Controls.Add(curveBox);
             Name = "Form1";
-            Text = "RGB to CMYK";
+            Text = "CMYK separation";
             ((System.ComponentModel.ISupportInitialize)curveBox).EndInit();
             ((System.ComponentModel.ISupportInitialize)originalBox).EndInit();
             ((System.ComponentModel.ISupportInitialize)kBox).EndInit();
