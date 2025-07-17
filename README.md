@@ -2,8 +2,6 @@
 ## Description
 A desktop application that can separate a given image into CMYK channels.
 
-![screenshot](https://i.imgur.com/uqlgoFu.png)
-
 The composition of the gray values (amounts of yellow, magenta, cyan and black ink mixed to obtain "gray ink") can be modified with a gray ramp, each channel modifiable with a cubic Bezier curve. The gray ramp configuration can be exported to and loaded from a file. CMYK channel images can be exported to .png files. 
 
 ## Installation
